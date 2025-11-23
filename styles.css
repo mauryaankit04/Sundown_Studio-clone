@@ -362,7 +362,7 @@ nav img {
     position: relative;
     height: 8vw;
     width: 100%;
-    border-bottom: 1px solid rgb(163, 146, 146);
+    border-bottom: 0.5px solid rgb(163, 146, 146);
     overflow: hidden;
 }
 
@@ -619,6 +619,8 @@ nav img {
     font-size: 8vw;
     position: absolute;
     background:linear-gradient(to right, rgb(255, 101, 6),#FE330A);
+    /* -webkit-text-fill-color: transparent; */
+    /* background-clip: text; */
     -webkit-background-clip: text;
     opacity:0;
     animation: load ease-in-out 1s;
